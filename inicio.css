@@ -1,0 +1,89 @@
+img{
+ width: 40%;
+ height: 70%;   
+ position: relative;
+ top: 20px;
+ left: 20px;
+}
+
+#finicio{
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    width: max-content;
+    height: 300px;
+    border: 1px solid black;
+    padding: 45px;
+    background-color: rgb(232, 232, 232);
+   
+}
+
+#finicio h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#finicio button{
+    position: absolute;
+    bottom: 100px;
+    left: 105px;
+    width: 130px;
+    height: 25px;
+}
+#finicio p{
+    position: absolute;
+    bottom: 30px;
+}
+
+#caja input{
+    position: relative;
+    top: 20px;
+    width: 220px;
+    margin-top: 20px;
+    height: 30;
+}
+
+#caja {
+margin: 20px;
+}
+#caja label{
+    position:absolute;
+    left: 65px;
+    margin-top: 18px;
+    font-size: large;
+}
+
+
+#formREgistro{
+    position: absolute;
+    top: 150px;
+    right: 305px;
+    width: max-content;
+    height: 360px;
+    border: 1px solid black;
+    padding: 45px;
+    background-color: rgb(232, 232, 232);
+    
+   
+}
+
+#formREgistro h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#formREgistro button{
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
+    width: 130px;
+    height: 25px;
+
+
+}
+#formREgistro a{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color:black;
+}
