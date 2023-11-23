@@ -29,6 +29,9 @@ body{
     align-items: center;
    
 }
+#registro{
+    display: flex;
+}
 
 #formINIcio form{
     width: max-content;
@@ -43,72 +46,17 @@ body{
 
 }
 
- /* #finicio h2{
-    text-align: center;
-    margin-top: 5px;
-}
 
-#finicio button{
-    position: absolute;
-    bottom: 100px;
-    left: 105px;
-    width: 130px;
-    height: 25px;
-} */
 #formINIcio form p{
     
     padding: 20px;
 }
 
-/* #caja input{
-    position: relative;
-    top: 20px;
-    width: 220px;
-    margin-top: 20px;
-    height: 30;
-}
-
-#caja {
-margin: 20px;
-}
-#caja label{
-    position:absolute;
-    left: 65px;
-    margin-top: 18px;
-    font-size: large;
-} */
 
 
-#formREgistro{
-    position: absolute;
-    top: 150px;
-    right: 305px;
-    width: max-content;
-    height: 360px;
-    border: 1px solid black;
-    padding: 45px;
-   
-    
-   
-}
 
-/* #formREgistro h2{
+ #formREgistro h2{
     text-align: center;
     margin-top: 5px;
 }
 
-#formREgistro button{
-    position: absolute;
-    bottom: 60px;
-    left: 110px;
-    width: 130px;
-    height: 25px;
-
-
-}
-#formREgistro a{
-    position: absolute;
-    bottom: 25px;
-    left: 30px;
-    color:black;
-} */ 
