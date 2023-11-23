@@ -39,10 +39,11 @@ body{
 
 #formINIcio form button{
  width: 100%;
- margin-top: 10px;
+ margin-top: 30px;
+
 }
 
-/* #finicio h2{
+ /* #finicio h2{
     text-align: center;
     margin-top: 5px;
 }
@@ -53,12 +54,13 @@ body{
     left: 105px;
     width: 130px;
     height: 25px;
-}
-#finicio p{
-    bottom: 30px;
+} */
+#formINIcio form p{
+    
+    padding: 20px;
 }
 
-#caja input{
+/* #caja input{
     position: relative;
     top: 20px;
     width: 220px;
@@ -109,4 +111,4 @@ margin: 20px;
     bottom: 25px;
     left: 30px;
     color:black;
-} */
+} */ 

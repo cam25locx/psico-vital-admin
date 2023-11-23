@@ -1,4 +1,6 @@
 window.onload = ()=> {
+    
+    
     document.querySelector("#Rcuenta").onclick = ()=>{
         document.querySelector("#formREgistro").style.display="flex";
         document.querySelector("#formINIcio").style.display="none";
