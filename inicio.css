@@ -1,62 +1,103 @@
 img{
- width: 40%;
- height: 70%;   
- 
- margin-left: 50px;
-}
-
-.form a{
-    color: rgb(140, 140, 140);
-}
-
-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    align-items: center;
-}
-
-#formINIcio{
-    width: 60%;
-    height: 100vh;
-    
-    margin-right: 100px;
-    padding: 45px;
- 
+    width: 40%;
+    height:80%;   
+    margin-left: 80px;
+    position: relative;
+    bottom: 40px;
+   }
+   
+   .form a{
+       color: rgb(140, 140, 140);
+   }
+   
+   body{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       min-height: 100vh;
+       align-items: center;
+     
+       
+   }
+   .form p{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
-#registro{
+    gap: 10px;
+    padding: 20px;
+   }
+#FormInicio{
+    width: 40%;
+    height: 100vh;
+    margin-right: 130px;
+    padding: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#formINIcio form{
+
+ form{
     width: max-content;
     height: max-content;
-    border: 1px solid rgb(228, 228, 228);
-    padding: 40px;
-}
-
-#formINIcio form button{
- width: 100%;
- margin-top: 30px;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 30px;
 
 }
+form div{
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    margin-top: 40px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-family:monospace;
+}
 
 
-#formINIcio form p{
+
+
+#FormRegistrarse{
+    width: 40%;
+    height: 100vh;
+    margin-right: 130px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#FormRegistrarse input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#FormRegistrarse label{
+    margin: 2px;
+}
+
+#FormRegistrarse button{
+    width: 84%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 26px;
     
-    padding: 20px;
+    
 }
-
-
-
-
- #formREgistro h2{
-    text-align: center;
-    margin-top: 5px;
+#FormRegistrarse a{
+    color: rgb(72, 72, 72);
 }
-
